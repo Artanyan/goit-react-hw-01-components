@@ -1,6 +1,7 @@
 import React from 'react';
 import defaultAvatar from "./defaultAvatar.png";
 import PropTypes from 'prop-types';
+import './Profile-card.css';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
       return(
