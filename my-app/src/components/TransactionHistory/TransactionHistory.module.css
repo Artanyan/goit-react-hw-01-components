@@ -1,0 +1,24 @@
+.container {
+  border: 1px solid black;
+}
+.transactionsHistory {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+  background-color: white;
+  box-shadow: 0 0 3px;
+}
+.title {
+  text-align: center;
+  background-color: #65ddec;
+  color: #fff;
+}
+.info:nth-child(2n) {
+  background-color: #d8dee2;
+}
+.info {
+  opacity: 0.6;
+}
